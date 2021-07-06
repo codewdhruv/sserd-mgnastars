@@ -1267,12 +1267,17 @@ section {
   text-align: center;
   border-radius: 4px;
   background: #fff;
+  transition: transform .2s;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+}
+
+.member:hover {
+  transform: scale(1.1);
 }
 
 .team .member .social {
