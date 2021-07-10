@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-2:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #magnastars {
@@ -428,7 +428,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #124265;
