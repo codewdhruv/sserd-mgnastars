@@ -382,6 +382,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .logo-2 {
   border-radius: 15px;
   margin-left: auto;
