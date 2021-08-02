@@ -382,6 +382,32 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.logo-2 {
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.logo-2:hover {
+  transform: scale(1.15);
+}
+
+.logo-3 {
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px;
+  width: 30%;
+}
+
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0.8);
@@ -401,14 +427,22 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
+  text-align: center;
   color: #124265;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
-  margin: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #124265;
+  text-align: center;
+}
+
+#hero h3 {
+  color: #124265;
 }
 
 #hero .btn-get-started {
