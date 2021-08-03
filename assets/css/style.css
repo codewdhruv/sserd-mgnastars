@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+h5 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #145f96;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
